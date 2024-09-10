@@ -1,0 +1,10 @@
+[package]
+name = "chromium-downloader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+indicatif = "0.17.8"
+regex = "1.10.6"
+reqwest = { version = "0.12.7", features = ["blocking"] }
+scraper = "0.20.0"
